@@ -23,7 +23,7 @@ class Game extends React.Component {
   }
   
   componentDidMount() {
-    setCurrentTime()
+    this.setCurrentTime()
   }
 
   addPancake = () => {
